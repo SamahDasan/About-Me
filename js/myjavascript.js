@@ -34,7 +34,7 @@ function yesno()
     if(question5.toLowerCase()=="YES".toLowerCase() || question5.toLowerCase()=="Y".toLowerCase() || question5=="NO".toLowerCase() || question5.toLowerCase()=="N".toLowerCase())
    alert("Fine You Answered All Right &hearts;");
     else  { 
-        alert("You Must Enter : yes,no ,y or n no case sensitive Start Agin");
+        alert("You Must Enter : yes,no ,y or n no case sensitive  Start Agin");
     }
     
 }
