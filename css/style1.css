@@ -9,10 +9,12 @@ border-radius: 50px;
 
 header{
     padding:2px;
+    margin:auto;
     background-image:linear-gradient(pink,rgb(243, 137, 243));
     margin-bottom:50px;
     width:50%;
-    mrgin:auto;
+
+
         
 }
 main{
