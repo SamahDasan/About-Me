@@ -1,6 +1,28 @@
 'use strict'
+
+
+
 let userName=prompt("Enter Your Name");
-alert("Wlcome"+" "+" "+userName+"  "+"  "+ "^_^" );
+if (userName !=null)
+{alert("Wlcome"+" "+" "+userName+"  "+"  "+ "^_^" );
+}
+/*yesno();*/
+
+alert ('Lets Start Maths Game');
+numbersGame();
+
+function numbersGame(){
+let num;
+let i=1;
+do{
+num=prompt('Enter Number less or more than 25');
+if (num<25)      
+alert('too low');
+else alert('too high');
+i++;   
+}while(num !=25 && num!= null  )    
+ alert("Refresh Page You Had all attepmts");}
+
 
 
 function yesno()
@@ -29,5 +51,5 @@ function yesno()
     else  { 
         alert("You Must Enter : yes,no ,y or n no case sensitive  Start Agin");
     }
-    
+    alert ('Now ');
 }
