@@ -11,6 +11,8 @@ header{
     padding:2px;
     background-image:linear-gradient(pink,rgb(243, 137, 243));
     margin-bottom:50px;
+    width:50%;
+    mrgin:auto;
         
 }
 main{
@@ -19,7 +21,7 @@ main{
     display:inline-block;   
 }
 h1{
-    padding:2px;
+padding:2px;
 color:white;
 
 }
