@@ -3,21 +3,25 @@ justify-content: center;
 font-family:cursive;
 font-weight:600;
 text-align:center;
+background-image:linear-gradient(rgb(208, 106, 255),white);
+
 }
 
 header{
-    background-image:linear-gradient(rgb(243, 137, 243),pink);
-    width:100%;
+    padding:2px;
+    background-image:linear-gradient(pink,rgb(243, 137, 243));
     margin-bottom:50px;
+        
 }
-
 main{
+    padding:2px;
     background-image:linear-gradient(rgb(243, 137, 243),pink);
-    width:100%;
-    
+    display:inline-block;   
 }
 h1{
-color:darkviolet;
+    padding:2px;
+color:white;
+
 }
 button
 {
@@ -37,6 +41,7 @@ cursor:pointer;
     box-sizing:border-box;
     display:inline-block;
     padding: 40px;
+    display:inline-block;
     
 }
 h2:nth-child(odd){
@@ -44,7 +49,6 @@ color:white;
 background-color: fuchsia;
 }
 .afont{
-
     font-weight:600;
 font-family:cursive;
 color:fuchsia;
