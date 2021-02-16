@@ -1,0 +1,51 @@
+body {
+justify-content: center;
+font-family:cursive;
+font-weight:600;
+text-align:center;
+}
+
+header{
+    background-image:linear-gradient(rgb(243, 137, 243),pink);
+    width:100%;
+    margin-bottom:50px;
+}
+
+main{
+    background-image:linear-gradient(rgb(243, 137, 243),pink);
+    width:100%;
+    
+}
+h1{
+color:darkviolet;
+}
+button
+{
+    background-color:white;
+    border:dotted purple 2px;
+    padding:10px; 
+    border-radius:40px;
+}
+button:hover {
+width:120px;
+border:solid black 2px;
+cursor:pointer;
+}
+.game{
+    border:dotted white 10px;
+    border-radius:50px;
+    box-sizing:border-box;
+    display:inline-block;
+    padding: 40px;
+    
+}
+h2:nth-child(odd){
+color:white;
+background-color: fuchsia;
+}
+.afont{
+
+    font-weight:600;
+font-family:cursive;
+color:fuchsia;
+}
