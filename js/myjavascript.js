@@ -11,7 +11,7 @@ if (userName !=null)
 alert ('Lets Start Maths Game');
 numbersGame();
 alert ('Another guess number game');
-game2();
+//game2();
 
 
 function numbersGame(){
@@ -60,7 +60,7 @@ function yesno()
     }
     alert ('You Have Answered Well ');
 }
-
+}
     function game2(){
     
        var questions=['What place I preferred to visit Italy or Britin or Japan ??',
