@@ -17,13 +17,18 @@ game2();
 function numbersGame(){
 let num;
 let i=1;
-while( i<=7 ){
-num=prompt('Enter a number grater or less than 25');
-if (num<25 && num !=null)      
-alert('too low');
-else if (num>25 && num !=null)alert('too high');
-i++;}    
- alert("Refresh Page You Had all attepmts");}
+/*num=prompt('Guess A number value Between 20 and 25');
+if (num==25) alert('Yes the secret number is 25 ^_^');*/
+//if (num !=25 && num !=null)
+while( i<=4 ){
+    num=prompt('Enter Number Value Between 20 and 25');
+    if (num==25){alert('Yes My Secret Number is 25 ^_^');break;}
+    else if (num <25 && num !=null )      
+    alert('too low');
+    else if (num>25 && num !=null)alert('too high');
+    i++;
+    }    
+
 
 
 
