@@ -61,15 +61,34 @@ function yesno()
     alert ('You Have Answered Well ');
 }
 
-
-function game2(){
-    let guess;
-    for (i=1;i<=7;i++)
-    {
-      guess= prompt('GUESS a number');
-      if (guess != 1 || guess !=2  || guess !=3)
-      {
-          alert('Wrong , this is attempt '+'  '+ i);
-      } 
-    }
-}
+    function game2(){
+    
+       var questions=['What place I preferred to visit Italy or Britin or Japan ??',
+        'What Kinds Of Food I preferred healthy,spicy,sweety',
+        'What is My Hoppy ?  painting or swimming or animating',
+        'what type of movies i preferred ? comedy,horror or action',
+         'Waht type of books i preferred ? Novel , Science or History',
+            'What is My Favourite Perfume Brands ? Lancome, Guccie or Channel',
+            'What Colors I like ? Red, blue or green'];
+        var answeres1=['italy','britin','japan'];
+        var answeres2=['healty','spicy'];
+        var answeres3=['painting','animating'];
+        var answeres4=['comedy','horror'];
+        var answeres5=['Science','History'];
+        var answeres6=['lancome','guccie'];
+        var answeres6=['red ', 'blue'];
+        let a;
+        let i=1;
+        let sum =0;
+            a=prompt(questions[i]).toLowerCase();
+            if (a!=answerse1[0] || a!=answerse1[1] ||a!=answerse1[2] )
+            while(i<=7){
+                alert('try again') ;
+                a=prompt(questions[i]).toLowerCase();
+                if (a==answerse1[0] || a ==answerse1[1] ||a ==answerse1[2])
+                {sum=sum+1;
+                break;
+                }
+                i++;
+            }
+        }
