@@ -10,17 +10,19 @@ if (userName !=null)
 
 alert ('Lets Start Maths Game');
 numbersGame();
+alert ('Another guess number game');
+game2();
+
 
 function numbersGame(){
 let num;
 let i=1;
-do{
-num=prompt('Enter Number less or more than 25');
-if (num<25)      
+while( i<=7 ){
+num=prompt('Enter a number grater or less than 25');
+if (num<25 && num !=null)      
 alert('too low');
-else alert('too high');
-i++;   
-}while(num !=25 && num!= null  )    
+else if (num>25 && num !=null)alert('too high');
+i++;}    
  alert("Refresh Page You Had all attepmts");}
 
 
@@ -51,5 +53,18 @@ function yesno()
     else  { 
         alert("You Must Enter : yes,no ,y or n no case sensitive  Start Agin");
     }
-    alert ('Now ');
+    alert ('You Have Answered Well ');
+}
+
+
+function game2(){
+    let guess;
+    for (i=1;i<=7;i++)
+    {
+      guess= prompt('GUESS a number');
+      if (guess != 1 || guess !=2  || guess !=3)
+      {
+          alert('Wrong , this is attempt '+'  '+ i);
+      } 
+    }
 }
