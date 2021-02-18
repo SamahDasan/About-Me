@@ -1,6 +1,6 @@
 body {
 justify-content: center;
-font-family:cursive;
+font-family:sans-serif;
 font-weight:600;
 text-align:center;
 background-image:linear-gradient(rgb(208, 106, 255),white);
@@ -54,7 +54,7 @@ background-color: fuchsia;
 }
 .afont{
 font-weight:600;
-font-family:cursive;
+font-family:sans-serif;
 color:fuchsia;
 }
 
