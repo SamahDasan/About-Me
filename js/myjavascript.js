@@ -4,6 +4,7 @@ let userName=prompt('Enter Your Name');
 if (userName !==null)
 {alert('Wlcome'+ userName +' '+' '+ '^_^' );
 }
+printSum;
 /*yesno();*/
 
 alert ('Lets Start Maths Game');
@@ -27,6 +28,11 @@ function food(type)
 }
 food(typeFood);
 
+let printSum=function()
+{
+ let val= prompt("Enter Value");
+    alert ("Your Value Is"+" "+val);
+}
 
 function numbersGame(){
   let num;
